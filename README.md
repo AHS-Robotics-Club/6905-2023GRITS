@@ -1,2 +1,2 @@
-# 6905-2023-24GRITS
+# 6905-2023GRITS
 Alpharetta Robotics Club's Official FRC GRITS Repository
