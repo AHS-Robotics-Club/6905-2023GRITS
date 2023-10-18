@@ -14,10 +14,10 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class DriveSubsystem extends SubsystemBase {
 
-  private final CANSparkMax leftMain = new CANSparkMax(1, MotorType.kBrushed);
-  private final CANSparkMax leftFollower = new CANSparkMax(2, MotorType.kBrushed);
-  private final CANSparkMax rightMain = new CANSparkMax(3, MotorType.kBrushed);
-  private final CANSparkMax rightFollwer = new CANSparkMax(4, MotorType.kBrushed);
+  private final CANSparkMax leftMain = new CANSparkMax(6, MotorType.kBrushed);
+  private final CANSparkMax leftFollower = new CANSparkMax(7, MotorType.kBrushed);
+  private final CANSparkMax rightMain = new CANSparkMax(8, MotorType.kBrushed);
+  private final CANSparkMax rightFollwer = new CANSparkMax(9, MotorType.kBrushed);
 
 
   /** Creates a new ExampleSubsystem. */
